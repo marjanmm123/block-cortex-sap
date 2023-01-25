@@ -1,19 +1,23 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "cnx_vilaseca"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "ectesting2"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "sap_reporting"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "200"
+  export: override_required
+}
+constant: FUNCTION_DATASET {
+  value: "sap_reporting"
   export: override_required
 }
